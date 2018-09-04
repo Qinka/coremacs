@@ -22,6 +22,7 @@
                             ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 ;; initialize package
+(setq package--init-file-ensured t)
 (setq package-enable-at-startup nil)
 (package-initialize)
 
