@@ -1,0 +1,12 @@
+*
+
+!/.gitignore
+!/init.el
+!/lisp/
+!/lisp/*
+!/lisp/core/
+!/lisp/core/*
+!/lisp/etc/
+!/lisp/etc/*
+!/lisp/layout/
+!/lisp/layout/*
