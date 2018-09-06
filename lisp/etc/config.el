@@ -17,8 +17,8 @@
   :type 'string)
 
 (defun coremacs-set-theme ()
-;;   (use-package monokai-theme
-;;     :init (load-theme 'monokai t)))
+  ;;   (use-package monokai-theme
+  ;;     :init (load-theme 'monokai t)))
   (use-package spacemacs-theme
     :init (load-theme 'spacemacs-dark t)))
 ;;   (use-package spacemacs-theme
@@ -29,6 +29,10 @@
 
 (defcustom coremacs-company-enable-yas t
   "Enable yasnippet for company backends or not."
+  :type 'boolean)
+
+(defcustom coremacs-lsp t
+  "Enable language servers or not."
   :type 'boolean)
 
 

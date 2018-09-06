@@ -24,6 +24,12 @@
 (bind-keys ("<f5>" . revert-current-buffer)
            ("s-r"  . revert-current-buffer))
 
+;; reload
+(defun reload-config ()
+  "Reload the init.el"
+  (interactive)
+  (load-file "~/.emacs.d/init.el"))
+
 ;; Update
 (defun update-config ()
   "Update Emacs configurations to the latest version."

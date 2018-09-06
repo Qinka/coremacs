@@ -13,3 +13,7 @@
 !/lisp/etc/*
 !/lisp/layout/
 !/lisp/layout/*
+!/lisp/language/
+!/lisp/language/*
+!/lisp/tool/
+!/lisp/tool/*

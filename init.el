@@ -29,6 +29,11 @@
 (require 'core/yasnippet)
 (require 'core/company)
 (require 'core/treemacs)
+(require 'core/window)
+(require 'core/kill-ring)
+(require 'core/ibuffer)
+(require 'core/hightlight)
+(require 'core/dired)
 
 
 

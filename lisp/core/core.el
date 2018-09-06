@@ -38,8 +38,8 @@
   :ensure nil
   ;; lazy load recentf
   :hook (find-file . (lambda () (unless recentf-mode
-                             (recentf-mode)
-                             (recentf-track-opened-file))))
+                                  (recentf-mode)
+                                  (recentf-track-opened-file))))
   :init
   ;; (add-hook 'after-init-hook #'recentf-mode)
   (setq recentf-max-saved-items 200)
